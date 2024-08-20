@@ -1,0 +1,24 @@
+{
+  "name": "Messagener",
+  "version": "0.0.1",
+  "private": false,
+  "main": "app.js",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "connect-mongo": "^2.0.1",
+    "cookie-parser": "^1.4.3",
+    "ejs": "^2.5.7",
+    "express": "^4.16.2",
+    "express-session": "^1.15.6",
+    "fs": "0.0.1-security",
+    "helmet": "^3.10.0",
+    "http": "0.0.0",
+    "lodash": "^4.17.4",
+    "method-override": "^2.3.10",
+    "mongoose": "^5.13.22",
+    "morgan": "^1.9.0",
+    "path": "^0.12.7",
+    "shortid": "^2.2.8",
+    "socket.io": "^1.7.3"
+  }
+}

@@ -1,0 +1,22 @@
+<header>
+  <nav class="nav navbar-default">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <a class="navbar-brand" href="http://localhost:1993/">Messagener</a>
+      </div>
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="/" class="navbar-brand">Home</a></li>
+       
+
+        <% if(user){ %>
+          <li><a href="" class="navbar-brand"><span id="totalOnline" class="badge">0</span>Online</a></li>
+          <li><a href="" class="navbar-brand"><%= user.username %></a></li>
+          <li><a href="/user/logout" class="navbar-brand">Logout</a></li>
+        <% } else{ %>
+          <li><a href="/user/login" class="navbar-brand">Login</a></li>
+          <li><a href="/user/signup" class="navbar-brand">Signup</a></li>
+        <% } %>
+      </ul>
+    </div>
+  </nav>
+</header>
