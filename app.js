@@ -23,7 +23,7 @@ app.use(logger('dev'));
 
 //connecting with database.
 const connectToMongoose=()=>{
-  mongoose.connect("mongodb+srv://---Creat data and get link on cloud mongodb ---/Messagener")
+  mongoose.connect("mongodb+srv://0916115174a:qINrihj70dWr0bD7@cluster0.tsqi2.mongodb.net/Messagener")
   .then(() => console.log('connect Successfully'))
   .catch(error => console.log(error))
 }
